@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Instagram</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="container mx-auto max-w-2xl p-4 md:p-8">
+
+        <header class="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-8 mb-6">
+            <div class="flex-shrink-0">
+                <img class="w-24 h-24 sm:w-32 sm:h-32 rounded-full border-2 border-pink-500 p-1 object-cover" src="assets/img/profile.jpg" alt="Gambar Profil">
+            </div>
+            
+            <div class="text-center sm:text-left">
+                <h1 class="text-2xl font-light mb-1">nama_pengguna</h1>
+                
+                <button class="mt-2 px-4 py-1 border border-gray-300 rounded-md text-sm font-semibold text-gray-700 hover:bg-gray-100 transition">
+                    Edit Profil
+                </button>
+                
+                <div class="flex justify-center sm:justify-start space-x-6 mt-4">
+                    <div>
+                        <span class="font-semibold block">123</span>
+                        <span class="text-sm text-gray-500">postingan</span>
+                    </div>
+                    <div>
+                        <span class="font-semibold block">456</span>
+                        <span class="text-sm text-gray-500">pengikut</span>
+                    </div>
+                    <div>
+                        <span class="font-semibold block">789</span>
+                        <span class="text-sm text-gray-500">diikuti</span>
+                    </div>
+                </div>
+
+                <div class="mt-4 hidden sm:block">
+                    <p class="font-semibold">Nama Lengkap</p>
+                    <p class="text-sm text-gray-600">Bio singkat tentang pengguna...</p>
+                    <p class="text-sm text-blue-500 mt-1">
+                        <a href="#" target="_blank">linkwebsite.com</a>
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <hr class="my-6 border-gray-300">
+
+        <div class="flex justify-around text-center border-t border-b border-gray-300 py-2 mb-6">
+            <a href="#" class="inline-flex items-center space-x-2 text-sm font-semibold text-blue-500 border-t-2 border-blue-500 -mt-2 pt-2">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4m18-6H3m0 0l-3 3v6h24v-6l-3-3m-9 0V3m0 0l-3 3V3m6 0l-3 3V3z" clip-rule="evenodd" fill-rule="evenodd"></path></svg>
+                <span>POSTS</span>
+            </a>
+            <a href="#" class="inline-flex items-center space-x-2 text-sm text-gray-400">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5A5.4 5.4 0 017.5 3C9.36 3 11 4.29 12 5.51 13 4.29 14.64 3 16.5 3A5.4 5.4 0 0122 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"></path></svg>
+                <span>SAVED</span>
+            </a>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1">
+            <img class="w-full h-48 object-cover cursor-pointer hover:opacity-75 transition-opacity duration-200" src="assets/img/post-1.jpg" alt="Postingan 1">
+            <img class="w-full h-48 object-cover cursor-pointer hover:opacity-75 transition-opacity duration-200" src="assets/img/post-2.jpg" alt="Postingan 2">
+            <img class="w-full h-48 object-cover cursor-pointer hover:opacity-75 transition-opacity duration-200" src="assets/img/post-3.jpg" alt="Postingan 3">
+            <img class="w-full h-48 object-cover cursor-pointer hover:opacity-75 transition-opacity duration-200" src="assets/img/post-4.jpg" alt="Postingan 4">
+            <img class="w-full h-48 object-cover cursor-pointer hover:opacity-75 transition-opacity duration-200" src="assets/img/post-5.jpg" alt="Postingan 5">
+            <img class="w-full h-48 object-cover cursor-pointer hover:opacity-75 transition-opacity duration-200" src="assets/img/post-6.jpg" alt="Postingan 6">
+            <img class="w-full h-48 object-cover cursor-pointer hover:opacity-75 transition-opacity duration-200" src="assets/img/post-7.jpg" alt="Postingan 7">
+            <img class="w-full h-48 object-cover cursor-pointer hover:opacity-75 transition-opacity duration-200" src="assets/img/post-8.jpg" alt="Postingan 8">
+            <img class="w-full h-48 object-cover cursor-pointer hover:opacity-75 transition-opacity duration-200" src="assets/img/post-9.jpg" alt="Postingan 9">
+            <img class="w-full h-48 object-cover cursor-pointer hover:opacity-75 transition-opacity duration-200" src="assets/img/post-10.jpg" alt="Postingan 10">
+            <img class="w-full h-48 object-cover cursor-pointer hover:opacity-75 transition-opacity duration-200" src="assets/img/post-11.jpg" alt="Postingan 11">
+            <img class="w-full h-48 object-cover cursor-pointer hover:opacity-75 transition-opacity duration-200" src="assets/img/post-12.jpg" alt="Postingan 12">
+        </div>
+
+    </div>
+
+</body>
+</html>
